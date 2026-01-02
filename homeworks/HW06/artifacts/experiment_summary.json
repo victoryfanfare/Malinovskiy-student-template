@@ -1,0 +1,35 @@
+{
+  "experiment_info": {
+    "date": "2026-01-02 15:15:29",
+    "random_state": 42,
+    "test_size": 0.25,
+    "cv_folds": 5
+  },
+  "dataset_02_summary": {
+    "n_samples": 18000,
+    "n_features": 38,
+    "class_distribution": {
+      "0": 13273,
+      "1": 4727
+    },
+    "best_model": "Stacking Classifier (Dataset 02)",
+    "best_accuracy": "0.9153"
+  },
+  "dataset_04_summary": {
+    "n_samples": 25000,
+    "n_features": 61,
+    "class_distribution": {
+      "0": 23770,
+      "1": 1230
+    },
+    "imbalance_ratio": 19.32520325203252,
+    "best_model": "Stacking Classifier (Dataset 04)",
+    "best_accuracy": "0.9603"
+  },
+  "key_findings": [
+    "Ансамбли (Random Forest, Gradient Boosting) показали лучшие результаты на обоих датасетах",
+    "Для дисбалансированных данных важнее использовать F1-score и Average Precision, а не accuracy",
+    "Stacking показывает хорошие результаты, но требует больше вычислительных ресурсов",
+    "Контроль сложности через гиперпараметры важен для предотвращения переобучения"
+  ]
+}

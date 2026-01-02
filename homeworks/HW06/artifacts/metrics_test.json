@@ -1,0 +1,138 @@
+{
+  "dataset_02_metrics": [
+    {
+      "model": "Dummy Classifier (Dataset 02)",
+      "train_accuracy": 0.7374074074074074,
+      "test_accuracy": 0.7373333333333333,
+      "train_f1": 0.0,
+      "test_f1": 0.0,
+      "test_roc_auc": 0.5,
+      "test_avg_precision": 0.26266666666666666,
+      "accuracy_diff": 7.407407407411526e-05,
+      "f1_diff": 0.0
+    },
+    {
+      "model": "Logistic Regression (Dataset 02)",
+      "train_accuracy": 0.8159259259259259,
+      "test_accuracy": 0.816,
+      "train_f1": 0.5671485803866922,
+      "test_f1": 0.5714285714285714,
+      "test_roc_auc": 0.8008835567468222,
+      "test_avg_precision": 0.659732116985097,
+      "accuracy_diff": -7.407407407400424e-05,
+      "f1_diff": -0.00427999104187915
+    },
+    {
+      "model": "Decision Tree (Dataset 02)",
+      "train_accuracy": 0.8667407407407407,
+      "test_accuracy": 0.8186666666666667,
+      "train_f1": 0.7225905936777178,
+      "test_f1": 0.6204651162790698,
+      "test_roc_auc": 0.8289137647391198,
+      "test_avg_precision": 0.6794952209971205,
+      "accuracy_diff": 0.04807407407407405,
+      "f1_diff": 0.10212547739864808
+    },
+    {
+      "model": "Random Forest (Dataset 02)",
+      "train_accuracy": 1.0,
+      "test_accuracy": 0.9002222222222223,
+      "train_f1": 1.0,
+      "test_f1": 0.7817209528439475,
+      "test_roc_auc": 0.9307071411742748,
+      "test_avg_precision": 0.8785117213356891,
+      "accuracy_diff": 0.09977777777777774,
+      "f1_diff": 0.2182790471560525
+    },
+    {
+      "model": "Gradient Boosting (Dataset 02)",
+      "train_accuracy": 0.9793333333333333,
+      "test_accuracy": 0.9093333333333333,
+      "train_f1": 0.9596645944773746,
+      "test_f1": 0.8105849582172702,
+      "test_roc_auc": 0.9314468381968222,
+      "test_avg_precision": 0.8812063294456316,
+      "accuracy_diff": 0.06999999999999995,
+      "f1_diff": 0.14907963626010445
+    },
+    {
+      "model": "Stacking Classifier (Dataset 02)",
+      "train_accuracy": 1.0,
+      "test_accuracy": 0.9153333333333333,
+      "train_f1": 1.0,
+      "test_f1": 0.82907133243607,
+      "test_roc_auc": 0.9340114271843372,
+      "test_avg_precision": 0.8814627874550112,
+      "accuracy_diff": 0.08466666666666667,
+      "f1_diff": 0.17092866756393
+    }
+  ],
+  "dataset_04_metrics": [
+    {
+      "model": "Dummy Classifier (Dataset 04)",
+      "train_accuracy": 0.9507733333333334,
+      "test_accuracy": 0.95088,
+      "train_f1": 0.0,
+      "test_f1": 0.0,
+      "test_roc_auc": 0.5,
+      "test_avg_precision": 0.04912,
+      "accuracy_diff": -0.0001066666666665883,
+      "f1_diff": 0.0
+    },
+    {
+      "model": "Logistic Regression Balanced (Dataset 04)",
+      "train_accuracy": 0.7877866666666666,
+      "test_accuracy": 0.77872,
+      "train_f1": 0.25500842538850405,
+      "test_f1": 0.2576489533011272,
+      "test_roc_auc": 0.8418246961772013,
+      "test_avg_precision": 0.4575180744481174,
+      "accuracy_diff": 0.009066666666666667,
+      "f1_diff": -0.0026405279126231473
+    },
+    {
+      "model": "Decision Tree (Dataset 04)",
+      "train_accuracy": 0.97328,
+      "test_accuracy": 0.96784,
+      "train_f1": 0.6464361326746648,
+      "test_f1": 0.5658747300215983,
+      "test_roc_auc": 0.847370322077105,
+      "test_avg_precision": 0.5572128140261039,
+      "accuracy_diff": 0.00544,
+      "f1_diff": 0.08056140265306655
+    },
+    {
+      "model": "Random Forest (Dataset 04)",
+      "train_accuracy": 0.9996266666666667,
+      "test_accuracy": 0.97568,
+      "train_f1": 0.9962182603997839,
+      "test_f1": 0.6724137931034483,
+      "test_roc_auc": 0.9105434855886623,
+      "test_avg_precision": 0.7890552070169774,
+      "accuracy_diff": 0.02394666666666667,
+      "f1_diff": 0.3238044672963356
+    },
+    {
+      "model": "Gradient Boosting (Dataset 04)",
+      "train_accuracy": 0.9869333333333333,
+      "test_accuracy": 0.98016,
+      "train_f1": 0.8477315102548166,
+      "test_f1": 0.75,
+      "test_roc_auc": 0.9003765961213505,
+      "test_avg_precision": 0.792414629902254,
+      "accuracy_diff": 0.006773333333333298,
+      "f1_diff": 0.09773151025481663
+    },
+    {
+      "model": "Stacking Classifier (Dataset 04)",
+      "train_accuracy": 0.9846933333333333,
+      "test_accuracy": 0.96032,
+      "train_f1": 0.8654477262072199,
+      "test_f1": 0.6612021857923497,
+      "test_roc_auc": 0.9120049810879797,
+      "test_avg_precision": 0.8017567864463628,
+      "accuracy_diff": 0.024373333333333358,
+      "f1_diff": 0.2042455404148702
+    }
+  ]
+}

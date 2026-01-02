@@ -1,0 +1,12 @@
+{
+  "dataset_02": {
+    "model_name": "Stacking Classifier (Dataset 02)",
+    "model_type": "Stacking",
+    "file": "best_model_dataset_02.joblib"
+  },
+  "dataset_04": {
+    "model_name": "Stacking Classifier (Dataset 04)",
+    "model_type": "Stacking",
+    "file": "best_model_dataset_04.joblib"
+  }
+}
