@@ -1,0 +1,170 @@
+{
+  "dataset1": {
+    "kmeans_k3": {
+      "n_clusters": 3,
+      "noise_ratio": 0.0,
+      "silhouette": 0.3967578520894987,
+      "davies_bouldin": 0.9646042500366256,
+      "calinski_harabasz": 10446.638111140075,
+      "model": "kmeans_k3",
+      "type": "KMeans"
+    },
+    "kmeans_k4": {
+      "n_clusters": 4,
+      "noise_ratio": 0.0,
+      "silhouette": 0.38330054183984447,
+      "davies_bouldin": 1.1603490405338497,
+      "calinski_harabasz": 9427.499744196686,
+      "model": "kmeans_k4",
+      "type": "KMeans"
+    },
+    "agg_ward_k3": {
+      "n_clusters": 3,
+      "noise_ratio": 0.0,
+      "silhouette": 0.3967888223601393,
+      "davies_bouldin": 0.9644102343879996,
+      "calinski_harabasz": 10446.597694416178,
+      "model": "agg_ward_k3",
+      "type": "Agglomerative"
+    },
+    "agg_complete_k3": {
+      "n_clusters": 3,
+      "noise_ratio": 0.0,
+      "silhouette": 0.1993203849301923,
+      "davies_bouldin": 2.1455109828445593,
+      "calinski_harabasz": 6939.273010358964,
+      "model": "agg_complete_k3",
+      "type": "Agglomerative"
+    },
+    "agg_average_k3": {
+      "n_clusters": 3,
+      "noise_ratio": 0.0,
+      "silhouette": 0.3188954987793278,
+      "davies_bouldin": 1.1544346772031078,
+      "calinski_harabasz": 5964.985359754357,
+      "model": "agg_average_k3",
+      "type": "Agglomerative"
+    }
+  },
+  "dataset2": {
+    "kmeans_k1": {
+      "n_clusters": 1,
+      "noise_ratio": 0.0,
+      "silhouette": null,
+      "davies_bouldin": null,
+      "calinski_harabasz": null,
+      "model": "kmeans_k1",
+      "type": "KMeans"
+    },
+    "kmeans_k2": {
+      "n_clusters": 2,
+      "noise_ratio": 0.0,
+      "silhouette": 0.3068610017701601,
+      "davies_bouldin": 1.3234721699867644,
+      "calinski_harabasz": 3573.3933329348392,
+      "model": "kmeans_k2",
+      "type": "KMeans"
+    },
+    "dbscan_eps0.3_min5": {
+      "n_clusters": 5,
+      "noise_ratio": 0.072375,
+      "silhouette": 0.08522505460147263,
+      "davies_bouldin": 0.5896990784253007,
+      "calinski_harabasz": 21.95165666653018,
+      "model": "dbscan_eps0.3_min5",
+      "type": "DBSCAN"
+    },
+    "dbscan_eps0.5_min10": {
+      "n_clusters": 2,
+      "noise_ratio": 0.063625,
+      "silhouette": 0.25120225459401474,
+      "davies_bouldin": 0.7420731639720546,
+      "calinski_harabasz": 26.168575636304777,
+      "model": "dbscan_eps0.5_min10",
+      "type": "DBSCAN"
+    },
+    "dbscan_eps0.8_min15": {
+      "n_clusters": 2,
+      "noise_ratio": 0.038375,
+      "silhouette": 0.545323553576565,
+      "davies_bouldin": 0.47193734808803534,
+      "calinski_harabasz": 134.99521695349654,
+      "model": "dbscan_eps0.8_min15",
+      "type": "DBSCAN"
+    },
+    "dbscan_eps0.65_min12": {
+      "n_clusters": 3,
+      "noise_ratio": 0.0515,
+      "silhouette": 0.36345431921041327,
+      "davies_bouldin": 0.6819839440029977,
+      "calinski_harabasz": 114.7981096663632,
+      "model": "dbscan_eps0.65_min12",
+      "type": "DBSCAN"
+    }
+  },
+  "dataset3": {
+    "kmeans_k2": {
+      "n_clusters": 2,
+      "noise_ratio": 0.0,
+      "silhouette": 0.2989049482650359,
+      "davies_bouldin": 1.3554682309311274,
+      "calinski_harabasz": 7004.795629839119,
+      "model": "kmeans_k2",
+      "type": "KMeans"
+    },
+    "kmeans_k3": {
+      "n_clusters": 3,
+      "noise_ratio": 0.0,
+      "silhouette": 0.3155447003782518,
+      "davies_bouldin": 1.1577256320598661,
+      "calinski_harabasz": 6957.162639510167,
+      "model": "kmeans_k3",
+      "type": "KMeans"
+    },
+    "kmeans_k4": {
+      "n_clusters": 4,
+      "noise_ratio": 0.0,
+      "silhouette": 0.31461865789976146,
+      "davies_bouldin": 1.1596756007747973,
+      "calinski_harabasz": 6492.278930703822,
+      "model": "kmeans_k4",
+      "type": "KMeans"
+    },
+    "kmeans_k5": {
+      "n_clusters": 5,
+      "noise_ratio": 0.0,
+      "silhouette": 0.299296734735238,
+      "davies_bouldin": 1.1685563259560328,
+      "calinski_harabasz": 6125.127992652557,
+      "model": "kmeans_k5",
+      "type": "KMeans"
+    },
+    "agg_ward_k4": {
+      "n_clusters": 4,
+      "noise_ratio": 0.0,
+      "silhouette": 0.3035720503661607,
+      "davies_bouldin": 1.1730948913052046,
+      "calinski_harabasz": 6206.351567152033,
+      "model": "agg_ward_k4",
+      "type": "Agglomerative"
+    },
+    "agg_complete_k4": {
+      "n_clusters": 4,
+      "noise_ratio": 0.0,
+      "silhouette": 0.12233355854285609,
+      "davies_bouldin": 1.637994295859694,
+      "calinski_harabasz": 3139.1681485451845,
+      "model": "agg_complete_k4",
+      "type": "Agglomerative"
+    },
+    "agg_average_k4": {
+      "n_clusters": 4,
+      "noise_ratio": 0.0,
+      "silhouette": 0.24597991015657275,
+      "davies_bouldin": 0.816473693015662,
+      "calinski_harabasz": 53.94067477007235,
+      "model": "agg_average_k4",
+      "type": "Agglomerative"
+    }
+  }
+}
